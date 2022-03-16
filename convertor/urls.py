@@ -4,5 +4,5 @@ from .views import PdfConvertor
 app_name = 'convertor'
 
 urlpatterns = [
-    path('test/', PdfConvertor.as_view())
+    path('docx-to-pdf/', PdfConvertor.as_view())
 ]
